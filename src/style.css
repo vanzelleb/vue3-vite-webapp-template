@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+
+html {
+  block-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  font-family: system-ui, sans-serif;
+  user-select: none;
+}
+
+main {
+  display: flex;
+  justify-content: start;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+input {
+  font-size: 0.9rem;
+}
+
+label,
+input,
+select {
+  margin: 0.2rem 0 0.1rem 0;
+  padding: 0.1rem 0;
+}
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.45em 0.8em;
+  margin: 0.3em;
+  font-size: 0.9rem;
+  background-color: #dddddd;
+  border: 0.15em solid blue;
+  border-radius: 0.3em;
+}
+
+p {
+  margin: 10px 0;
+}
+
+@media all and (max-width: 30em) {
+  html {
+    font-size: 1.1rem;
+  }
+}
